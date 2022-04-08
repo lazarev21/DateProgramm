@@ -514,7 +514,7 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"bDbGG":[function(require,module,exports) {
-var _dateFns = require("date-fns");
+var _dateFns = require("../node_modules/date-fns");
 //import Cookies from 'js-cookie'; 
 var _viewJs = require("./view.js");
 _viewJs.container.addEventListener('submit', function(event) {
@@ -530,7 +530,7 @@ function durationFromInterval(dateInput) {
     _viewJs.outputResultOnUI(result);
 }
 
-},{"./view.js":"2GA9o","date-fns":"9yHCA"}],"2GA9o":[function(require,module,exports) {
+},{"./view.js":"2GA9o","../node_modules/date-fns":"9yHCA"}],"2GA9o":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "container", ()=>container
