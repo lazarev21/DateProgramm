@@ -53,6 +53,10 @@ h1, p {
   display: block;
 }
 
+.main__search:hover {
+  cursor: pointer;
+}
+
 .main__search {
   height: 100%;
   color: #fff;

@@ -1,7 +1,7 @@
 
 import { intervalToDuration } from "../node_modules/date-fns";
 //import Cookies from 'js-cookie'; 
-import { container } from "./view.js";
+import { container, outputResultOnUI } from "./view.js";
 
 
 container.addEventListener('submit', function (event) {
@@ -21,8 +21,3 @@ function durationFromInterval(dateInput) {
 
 }
 
-function outputResultOnUI (result) {
-    document.querySelector('.hours-count').innerHTML = result.hours
-    document.querySelector('.days-count').innerHTML = result.days
-    document.querySelector('.years-count').innerHTML = result.years
-}

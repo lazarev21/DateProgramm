@@ -527,12 +527,7 @@ function durationFromInterval(dateInput) {
         start: new Date(),
         end: new Date(dateInput)
     });
-    outputResultOnUI(result);
-}
-function outputResultOnUI(result) {
-    document.querySelector('.hours-count').innerHTML = result.hours;
-    document.querySelector('.days-count').innerHTML = result.days;
-    document.querySelector('.years-count').innerHTML = result.years;
+    _viewJs.outputResultOnUI(result);
 }
 
 },{"./view.js":"2GA9o","../node_modules/date-fns":"9yHCA"}],"2GA9o":[function(require,module,exports) {
@@ -540,7 +535,14 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "container", ()=>container
 );
+parcelHelpers.export(exports, "outputResultOnUI", ()=>outputResultOnUI
+);
 const container = document.querySelector('.container');
+function outputResultOnUI(result) {
+    document.querySelector('.hours-count').innerHTML = result.hours;
+    document.querySelector('.days-count').innerHTML = result.days;
+    document.querySelector('.years-count').innerHTML = result.years;
+}
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {

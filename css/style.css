@@ -52,6 +52,10 @@ h1,p {
     border: 1px solid #fff;
     border-radius: 10px;
   }
+
+.main__search:hover {
+    cursor: pointer;
+}
   
   .main__search {
     height: 100%;
