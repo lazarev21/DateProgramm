@@ -1,0 +1,96 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+h1,p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 300px;
+    
+}
+
+.main_input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    min-width: 100px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.input {
+    height: 100%;
+    display: block;
+    width: 100%;
+    padding-left: 16px;
+    line-height: 1.17;
+    font-weight: 400;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+  
+  .main__search {
+    height: 100%;
+    margin-left: 15px;
+    color: #fff;
+  }
+  
+  .main__search-img {
+    fill: #fff;
+    width: 30px;
+    height: 30px;
+  }
+
+  ::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    margin-right: 5px;
+}
+
+.main_output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.output-title{
+    margin-bottom: 15px;
+}
+
+.output__hour, .output__day, .output__mounth, .output__year {
+    width: 50px;
+}
+
+.output {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.count {
+    font-size: 35px;
+    font-weight: 600;
+}

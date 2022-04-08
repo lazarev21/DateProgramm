@@ -1,1 +1,61 @@
-123
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DateProgramm</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="main_input">
+            <div class="main-title">
+                <h1>Countdown</h1>
+                <p>Для подсчета времени до наступления события введите дату:</p>
+            </div>
+            <div class="form">
+                <form class="container">
+                    <input class="input" type="date" required placeholder="enter date">
+                    <button class="main__search" type="submit">Посчитать
+                        <!-- <svg class="main__search-img">
+                            <use xlink:href="images/search.svg#search"></use>
+                        </svg> -->
+                    </button>
+                </form>
+            </div>
+        </div>
+    <div class="main_output">
+        <div class="output-title">
+            Осталось: 
+        </div>
+        <div class="output">
+            <div class="output__hour">
+                <p>Часов</p>
+                <p class="count year-count">00</p>
+            </div>
+            <div class="output__day">
+                <p>Дней</p>
+                <p class="count day-count">00</p>
+            </div>
+
+            <div class="output__mounth">
+                <p>Месяцев</p>
+                <p class="count mounth-count">00</p>
+            </div>
+
+            <div class="output__year">
+                <p>Лет</p>
+                <p class="count year-count">00</p>
+            </div>
+
+            
+        </div>
+         
+    </div>
+</div>
+</body>
+<script type="module" src="js/main.js"></script>
+</html>
