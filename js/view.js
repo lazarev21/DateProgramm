@@ -1,4 +1,4 @@
-export {container, dateInput}
+export {container}
 
 const container = document.querySelector('.container');
-const dateInput = document.querySelector('.input').value;
+
