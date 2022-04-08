@@ -1,0 +1,26 @@
+{
+  "name": "dateprogramm",
+  "version": "1.0.0",
+  "description": "coutdown",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazarev21/DateProgramm.git"
+  },
+  "author": "21",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lazarev21/DateProgramm/issues"
+  },
+  "homepage": "https://github.com/lazarev21/DateProgramm#readme",
+  "dependencies": {
+    "@types/js-cookie": "^3.0.1",
+    "date-fns": "^2.28.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
+}
