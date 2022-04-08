@@ -1,0 +1,98 @@
+* {
+  font-family: Work Sans, sans-serif;
+}
+
+body {
+  color: #fff;
+  background-color: #000;
+}
+
+h1, p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.main {
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.form {
+  width: 300px;
+}
+
+.main_input {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.container {
+  min-width: 100px;
+  height: 40px;
+  box-sizing: border-box;
+  align-items: center;
+  margin: auto;
+  display: flex;
+}
+
+.input {
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding-left: 16px;
+  font-weight: 400;
+  line-height: 1.17;
+  display: block;
+}
+
+.main__search {
+  height: 100%;
+  color: #fff;
+  margin-left: 15px;
+}
+
+.main__search-img {
+  fill: #fff;
+  width: 30px;
+  height: 30px;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert();
+  margin-right: 5px;
+}
+
+.main_output {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.output-title {
+  margin-bottom: 15px;
+}
+
+.output__hour, .output__day, .output__mounth, .output__year {
+  width: 50px;
+}
+
+.output {
+  width: 300px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.count {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=index.b2625c6b.css.map */
