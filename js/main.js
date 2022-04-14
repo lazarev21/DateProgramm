@@ -1,5 +1,5 @@
 
-import { intervalToDuration } from "../node_modules/date-fns";
+import { intervalToDuration } from 'date-fns'
 //import Cookies from 'js-cookie'; 
 import { container, outputResultOnUI } from "./view.js";
 
@@ -8,8 +8,7 @@ container.addEventListener('submit', function (event) {
     event.preventDefault();
     const dateInput = document.querySelector('.input').value;
     durationFromInterval(dateInput)
-   
-    
+  
 })
 
 function durationFromInterval(dateInput) {
@@ -18,6 +17,4 @@ function durationFromInterval(dateInput) {
         end: new Date(dateInput)
       });
       outputResultOnUI(result)
-
 }
-
